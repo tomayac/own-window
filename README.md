@@ -44,7 +44,7 @@ In the demo, include the custom element as shown below.
   <head>
     <!-- Demo stuff. -->
     
-    <script src="https://unpkg.com/own-window">
+    <script src="https://unpkg.com/own-window"></script>
       
     <!-- Demo stuff. -->
   </head>
