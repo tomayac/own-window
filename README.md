@@ -4,6 +4,10 @@ A custom element to make sure demos run in their own window and not embedded as
 an iframe. This can be useful for articles that embed a demo as an iframe, but
 for the demo to work, the demo needs to run in the main window.
 
+## Demo
+
+See `<own-window>` in action in the [demo](https://tomayac.github.io/own-window/demo/).
+
 ## Usage
 
 Embed your demo in your markdown element as usual.
