@@ -1,0 +1,13 @@
+:root {
+  color-scheme: dark light;
+  font-family: system-ui, sans-serif;
+}
+
+own-window {
+  margin-block: 1rem;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+  color: red;
+}

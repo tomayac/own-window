@@ -1,0 +1,34 @@
+{
+  "name": "own-window",
+  "version": "1.0.0",
+  "description": "A custom element to make sure demos run in their own window and not embedded as an iframe.",
+  "main": "/dist/index.js",
+  "module": "/dist/index.js",
+  "browser": "/dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "start": "npx http-server",
+    "fix": "npx prettier . --write",
+    "build": "esbuild ./src/index.js --minify --outfile=./dist/index.min.js",
+    "prepare": "npm run fix && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomayac/own-window.git"
+  },
+  "author": "Thomas Steiner (tomac@google.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tomayac/own-window/issues"
+  },
+  "homepage": "https://github.com/tomayac/own-window#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.7"
+  }
+}
