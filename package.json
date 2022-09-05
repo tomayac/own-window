@@ -1,6 +1,6 @@
 {
   "name": "own-window",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A custom element to make sure demos run in their own window and not embedded as an iframe.",
   "main": "./dist/index.min.js",
   "module": "./dist/index.min.js",
