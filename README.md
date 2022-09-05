@@ -13,11 +13,17 @@ for the demo to work, the demo needs to run in the main window.
 See `<own-window>` in action in the
 [demo](https://tomayac.github.io/own-window/demo/).
 
+## Installation
+
+```bash
+npm install --save own-window
+```
+
 ## Usage
 
 Embed your demo in your markdown element as usual.
 
-```md
+```markdown
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua.
 
@@ -37,7 +43,10 @@ In the demo, include the custom element as shown below.
 <html>
   <head>
     <!-- Demo stuff. -->
+    
     <script src="https://unpkg.com/own-window">
+      
+    <!-- Demo stuff. -->
   </head>
   <body>
     <!-- Demo stuff. -->
