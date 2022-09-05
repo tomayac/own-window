@@ -1,12 +1,12 @@
 {
   "name": "own-window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom element to make sure demos run in their own window and not embedded as an iframe.",
   "main": "/dist/index.js",
   "module": "/dist/index.js",
   "browser": "/dist/index.js",
   "files": [
-    "/dist"
+    "dist"
   ],
   "scripts": {
     "start": "npx http-server",
