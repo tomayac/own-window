@@ -21,7 +21,7 @@ npm install --save own-window
 
 ## Usage
 
-Embed your demo in your markdown element as usual.
+Embed your demo in your markdown document as usual.
 
 ```markdown
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
